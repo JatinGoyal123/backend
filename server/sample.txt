@@ -1,0 +1,3 @@
+// Middleware : jaise agar kisi ne login nahi kiya toh he/she cannot access the about me page .
+// This is possible due to middlewares
+Mongoose will connect mogodb atlas with node js.
