@@ -24,6 +24,11 @@ app.get('/about', middleware, (req, res) => {
   res.send('Hello About from server');
 });
 
+app.get('/contact', (req, res) => {
+  res.cookie('Test', 'thapa');
+  res.send('hello from the contatct server');
+});
+
 app.get('/login', (req, res) => {
   res.send('Hello Login from server');
 });
